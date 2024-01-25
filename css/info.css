@@ -1,0 +1,430 @@
+.section-info{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.img{
+    width: 720px;
+    height: 80vh;
+    background-image: url(../images/Premium\ Photo\ _\ A\ white\ cup\ of\ coffee\ and\ beans\ on\ white\ background.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+.info-title{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: 'Carattere', cursive;
+    font-size: 70px;
+    color: #523D2E;
+    text-shadow: 1px 1px 6px #6a2c00 ;
+}
+.underline{
+    width: 180px;
+    height: 2px;
+    background-color: #523D2E;
+    margin-left: 620px;
+    margin-top: -3%;
+}
+.info-p{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #291707;
+    font-weight: 450;
+}
+.info-p2{
+    margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #291707;
+}
+.info-p3{
+    margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #291707;
+}
+.info-p4{
+    margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #291707;
+}
+.info-p5{
+    margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #291707;
+}
+.sec-btn{
+    border: none;
+    width: 200px;
+    height: 52px;
+    border-radius: 30px;
+    font-family: 'Carattere', cursive;
+    background-color: #523D2E;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+.sec-btn a{
+    color:rgba(255, 236, 210,0.6); 
+    text-decoration: none;
+}
+
+/************************************************************************************************************************************/
+
+/*information-section*/
+
+.information{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.parent-info{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div1-info{
+    width: 750px;
+    height: 380px;
+    background:linear-gradient(to bottom,
+    #fdd6ba,
+    #9c6e4c
+    ) ;
+    border-radius: 15px;
+
+}
+.div2-info{
+    width: 320px;
+    height: 380px;
+    background-image: url(../images/icecoffee.jpeg);
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    transition: 1s;
+}
+.overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.2);
+}
+.div2-title{
+    font-family: 'Carattere', cursive;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 35px;
+    color:#fdd6ba;
+}
+.div3-info{
+    width: 320px;
+    height: 380px;
+    background-image: url(../images/FAGE\ Total\ Yoghurt_\ Chocolate\ Cookie\ Crumble\ &\ Strawberry\ Parfait.jpeg);
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    transition: 1s;
+}
+.div2-info:hover{
+    transform: scale(1.1);
+}
+.div3-info:hover{
+    transform: scale(1.1);
+}
+.div1-title{
+    font-family: 'Carattere', cursive;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 35px;
+    color:#523D2E;
+    text-decoration: underline;
+}
+.cup{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.info{
+    margin-top: -10px;
+}
+.info li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#291707;
+    line-height: 1.5;
+}
+.info2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#291707;
+    margin-left: 20px;
+}
+.p-2-1{
+    color:#291707;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.p-3-11{
+    color:#291707;
+    margin-left: 2%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.overlay3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.2);
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+.parent-info2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-around;
+    top: 70%;
+}
+.big-1{
+    width: 12%;
+    height: 200px;
+    position: relative;
+}
+.info1{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px #663512 inset;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.icon{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/icons8-high-quality-80.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 18%;
+    left: 28%;
+    transition: 0.75s;
+}
+.icon2{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/color3.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 0.75s;
+    top: 150%;
+    left: 28%;
+}
+.info1:hover .icon2{
+    transform: translatey(-210%);
+}
+.info1:hover .icon{
+    transform: translatey(-140%);
+}
+.info2-1{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px #663512 inset;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.icon2-1{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/icons8-price-80.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 18%;
+    left: 28%;
+    transition: 0.75s;
+}
+.icon2-2{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/colorprice.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 0.75s;
+    top: 150%;
+    left: 28%;
+}
+.info2-1:hover .icon2-1{
+    transform: translatey(-210%);
+}
+.info2-1:hover .icon2-2{
+    transform: translatey(-210%);
+}
+.info3{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px #663512 inset;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.icon3-1{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/icons8-coffee-beans-50.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 29%;
+    left: 38%;
+    transition: 0.75s;
+}
+.icon3-2{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/colorcoffee.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 0.75s;
+    top: 150%;
+    left: 38%;
+}
+.info3:hover .icon3-1{
+    transform: translatey(-210%);
+}
+.info3:hover .icon3-2{
+    transform: translatey(-190%);
+}
+.info4{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px #663512 inset;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.icon4-1{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/icons8-coffee-64.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    transition: 0.75s;
+}
+.icon4-2{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/colorcup.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 0.75s;
+    top: 150%;
+    left: 38%;
+}
+.info4:hover .icon4-1{
+    transform: translatey(-210%);
+}
+.info4:hover .icon4-2{
+    transform: translatey(-210%);
+}
+.info5{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px #663512 inset;
+    border-radius: 10px;
+    top: -46%;
+    left: 15%;
+    overflow: hidden;
+    position: relative;
+}
+.icon5-1{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/icons8-favorites-50.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 29%;
+    left: 38%;
+    transition: 0.75s;
+}
+.icon5-2{
+    width: 80%;
+    height: 80px;
+    background-image: url(../images/colorsave.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    transition: 0.75s;
+    top: 150%;
+    left: 38%;
+}
+.info5:hover .icon5-1{
+    transform: translatey(-210%);
+}
+.info5:hover .icon5-2{
+    transform: translatey(-190%);
+}
+.space{
+    width: 2px;
+    height: 90px;
+    background-color: #9c6e4c;
+    margin-top: 5px;
+}
+.space-1{
+    width: 2px;
+    height: 90px;
+    background-color: #9c6e4c;
+    margin-top: 5px;
+}
+.space-4{
+    width: 2px;
+    height: 90px;
+    background-color: #9c6e4c;
+    margin-top: 5px;
+    margin-left: -10%;
+}
+.p1{
+    font-family: 'Carattere', cursive;
+    color: #523D2E;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.p5-1{
+    font-family: 'Carattere', cursive;
+    color: #523D2E;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+.p1-1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #291707;
+    font-weight: 450;
+    text-align: center;
+    margin-top: -25px;
+}
+.p5-2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #291707;
+    font-weight: 450;
+    text-align: center;
+    margin-top: -25px;
+    margin-left: 50px;
+}
